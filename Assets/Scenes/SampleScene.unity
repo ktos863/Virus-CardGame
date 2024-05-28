@@ -133,8 +133,8 @@ GameObject:
   - component: {fileID: 45650069}
   - component: {fileID: 45650071}
   - component: {fileID: 45650070}
-  - component: {fileID: 45650072}
   - component: {fileID: 45650073}
+  - component: {fileID: 45650074}
   m_Layer: 5
   m_Name: 'Organ Slot 1 '
   m_TagString: Untagged
@@ -199,7 +199,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45650068}
   m_CullTransparentMesh: 1
---- !u!114 &45650072
+--- !u!114 &45650073
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,7 +208,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 45650068}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardBeingPlayed: {fileID: 0}
+  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
+--- !u!114 &45650074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45650068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -225,20 +239,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &45650073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 45650068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBeingPlayed: {fileID: 0}
-  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
 --- !u!1 &84585597
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,8 +329,8 @@ GameObject:
   - component: {fileID: 91391091}
   - component: {fileID: 91391093}
   - component: {fileID: 91391092}
-  - component: {fileID: 91391094}
   - component: {fileID: 91391095}
+  - component: {fileID: 91391096}
   m_Layer: 5
   m_Name: 'Organ Slot 3 '
   m_TagString: Untagged
@@ -395,7 +395,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91391090}
   m_CullTransparentMesh: 1
---- !u!114 &91391094
+--- !u!114 &91391095
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -404,7 +404,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 91391090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardBeingPlayed: {fileID: 0}
+  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
+--- !u!114 &91391096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91391090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -421,20 +435,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &91391095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91391090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBeingPlayed: {fileID: 0}
-  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
 --- !u!1 &93148687
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,8 +644,8 @@ GameObject:
   - component: {fileID: 469300480}
   - component: {fileID: 469300482}
   - component: {fileID: 469300481}
-  - component: {fileID: 469300483}
   - component: {fileID: 469300484}
+  - component: {fileID: 469300485}
   m_Layer: 5
   m_Name: 'Organ Slot 2 '
   m_TagString: Untagged
@@ -710,7 +710,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469300479}
   m_CullTransparentMesh: 1
---- !u!114 &469300483
+--- !u!114 &469300484
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -719,7 +719,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 469300479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardBeingPlayed: {fileID: 0}
+  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
+--- !u!114 &469300485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469300479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -736,20 +750,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &469300484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 469300479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBeingPlayed: {fileID: 0}
-  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1103,8 +1103,8 @@ GameObject:
   - component: {fileID: 1431020515}
   - component: {fileID: 1431020517}
   - component: {fileID: 1431020516}
-  - component: {fileID: 1431020518}
   - component: {fileID: 1431020519}
+  - component: {fileID: 1431020520}
   m_Layer: 5
   m_Name: 'Organ Slot 4 '
   m_TagString: Untagged
@@ -1169,7 +1169,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431020514}
   m_CullTransparentMesh: 1
---- !u!114 &1431020518
+--- !u!114 &1431020519
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1178,7 +1178,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1431020514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardBeingPlayed: {fileID: 0}
+  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
+--- !u!114 &1431020520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431020514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -1195,20 +1209,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &1431020519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431020514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBeingPlayed: {fileID: 0}
-  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
 --- !u!1 &1700162376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1655,8 +1655,8 @@ GameObject:
   - component: {fileID: 2049736379}
   - component: {fileID: 2049736381}
   - component: {fileID: 2049736380}
-  - component: {fileID: 2049736382}
   - component: {fileID: 2049736383}
+  - component: {fileID: 2049736384}
   m_Layer: 5
   m_Name: 'Organ Slot 5 '
   m_TagString: Untagged
@@ -1721,7 +1721,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049736378}
   m_CullTransparentMesh: 1
---- !u!114 &2049736382
+--- !u!114 &2049736383
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1730,7 +1730,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 2049736378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardBeingPlayed: {fileID: 0}
+  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
+--- !u!114 &2049736384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049736378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
@@ -1747,20 +1761,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
---- !u!114 &2049736383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2049736378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79342d8b0abe0a4a806c6c96bcd48b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBeingPlayed: {fileID: 0}
-  card: {fileID: 6873623310066312572, guid: 6f363c282ac8c6a4ab09450237efbcf2, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
